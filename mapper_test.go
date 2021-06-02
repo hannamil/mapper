@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 )
+
 type (
 	Class struct {
 		Name  string

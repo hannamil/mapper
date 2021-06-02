@@ -47,6 +47,7 @@ func main() {
 			Level: "basic",
         },
 	}
+	
 	student, err := mapper.Mapper(person, &Student{})
 	// or
 	// student, err := mapper.Mapper(person, Student{})
